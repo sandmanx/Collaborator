@@ -49,7 +49,7 @@ io.on('connection', function (socket) {
 
 app.post('/index', function(req, res) {
   user_name = req.body.firstname;
-  res.redirect('Groove 22-03-17.html');
+  res.redirect('home.html');
 });
 
 app.get("/user", function(req, res) {
