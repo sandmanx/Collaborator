@@ -29,9 +29,14 @@
     <button id = "btn2" type="button" class="btn btn-default" onclick = "addToCommonPlaylist()">
         <span class="glyphicon glyphicon-plus"></span>
     </button>
-    <div id = "list" class = "playlist">
+    <button id = 'join' type = "button" onclick = "join()">Connect</button>
+    <div id = "list" class = "playlist"></div>
     <div id = "list2" class = "commonPlaylist">
     </div>
+    <div> <ul id="messages"></ul>
+    <form action="" id = "y">
+      <input id="m" autocomplete="off" /><button id = "b">Send</button>
+    </form></div>
     
 
     <script>
@@ -117,6 +122,20 @@
                 });
             });
         });
+
+        $('form').submit(function(){
+          socket.emit('chat message', $('#m').val());
+          $('#m').val('');
+          return false;
+        });
+        socket.on('chat message', function(msg){
+          $('#messages').append($('<li>').text(msg));
+          window.scrollTo(0, document.body.scrollHeight);
+        });
+
+        function join() {
+            soc
+        }
 
         function userDatabase() {
             //ref2.push({Name : user});

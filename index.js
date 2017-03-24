@@ -41,6 +41,10 @@ io.on('connection', function (socket) {
   socket.on('commonPlaylist', function(data) {
     io.sockets.emit('commonPlaylistReply', data);
   });
+
+  socket.on('chat message', function(msg){
+    io.emit('chat message', msg);
+  });
 });
 
 app.post('/index', function(req, res) {
