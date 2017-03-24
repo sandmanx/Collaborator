@@ -1,0 +1,12 @@
+#list {
+	height: 100%; 
+	width: 35%; 
+	top: 0%; 
+	right: 0%; 
+	border: solid 1px #999; 
+	position: absolute;
+}
+
+#btn {
+	display: none;
+}

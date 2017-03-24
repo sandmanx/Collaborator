@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="new1.css">
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+ <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+</head>
+<body>
+    <form method="post" action = "" class="form-inline" id = "x" enctype = "application/json">
+        <div class="form-group">
+            <label class="sr-only" for="videoName">Enter song name:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="videoName" placeholder="Enter" name = "name">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary" id = "other">Play</button>
+    </form>
+    <div id="target" onload="fun1()"></div> 
+    <iframe id="player" type="text/html" width="640" height="390" frameborder="0"></iframe>
+    <button id = "btn" type="button" class="btn btn-default" onclick = "addToPlaylist()">
+        <span class="glyphicon glyphicon-plus"></span>
+    </button>
+    <div id = "list" class = "playlist">
+    </div>
+    
+
+<!--<script src="https://www.gstatic.com/firebasejs/3.6.10/firebase-database.js"></script>!-->
+
+    <script>
+    window.onload() {
+        console.log("hello");
+    }
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBoRSkKo6Wkne0kAq-W3qMShzvpCJzgSXI",
+            authDomain: "groove-b2c84.firebaseapp.com",
+            databaseURL: "https://groove-b2c84.firebaseio.com",
+            storageBucket: "groove-b2c84.appspot.com",
+            messagingSenderId: "284379362046"
+        };
+        firebase.initializeApp(config);
+        //console.log(firebase);
+        var database = firebase.database();
+        var ref = database.ref('Songs');
+        //var messagesRef = new Firebase('https://groove-b2c84.firebaseio.com');
+        ref.on('value', displayData, errData);
+        var id;
+        var song_title;
+
+        function fun1() {
+        /*$.get("/user", function(name) {
+            console.log(name);
+            $('#target').text(name);
+        });*/
+        console.log("hello");
+        }
+
+        $('#x').submit(function(event) {
+            event.preventDefault();
+            var searchQuery = document.getElementById('videoName').value;
+            $.get("/search/"+searchQuery, function(data){
+                $('#target').text(data);
+                console.log("got" + data);
+                document.getElementById('player').src = "http://www.youtube.com/embed/" + data + "?autoplay=1";
+                document.getElementById('btn').style.display = 'inline';
+                $.getJSON('https://noembed.com/embed?url=http://www.youtube.com/watch?v='+data,function(data,status,xhr){
+                    //console.log(data.title);
+                    song_title = data.title;
+                });
+            });
+        });
+        function addToPlaylist() {
+            $("#list").append('<button type="button" id="' + song_title + '" class = "btn btn-primary btn-block" onclick="play_playlist_song(event)">' +song_title+ '</button><br />');
+            ref.push({title: song_title});
+        }    
+
+        function play_playlist_song(event) {
+            console.log(event.target.id);
+            $.get("/search/" + event.target.id.trim(), function(data) {
+                document.getElementById('player').src = "http://www.youtube.com/embed/" + data + "?autoplay=1";
+            });
+        }
+
+        function displayData(data) {
+            var d = data.val();
+            var keys = Object.keys(d);
+            console.log(keys);
+            for(var i = 0 ; i < keys.length ; i++) {
+                var k = keys[i];
+                var title = d[k].title;
+                $("#list").append('<button type="button" id="' + title + '" class = "btn btn-primary btn-block" onclick="play_playlist_song(event)">' +title+ '</button><br />');
+            }
+        }
+
+        function errData(err){
+            console.log(err);
+        }            
+    </script>
+</body>
+</html>
