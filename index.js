@@ -9,12 +9,15 @@ var user_name;
 var youtube = google.youtube({ version: 'v3', auth: 'AIzaSyAoN1RLSoqgf7ujPK-2cfT8pz4qQR1_tvg' });
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
-
+var session = require('express-session');
+var sess;
 http.listen(3000);
 
 app.use(express.static('./Public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 //app.use(bodyParser.json());
+
+app.use(session({secret: 'ssshhhhh'}));
 
 app.get('/', function(req,res) {
     res.sendFile(path);
@@ -25,6 +28,7 @@ io.on('connection', function (socket) {
   console.log("user connected");
   socket.on('pause', function() {
     console.log("pasue received");
+    console.log(sess);
     io.sockets.emit('pauseAll');
   });
 
@@ -34,7 +38,6 @@ io.on('connection', function (socket) {
   });
 
   socket.on('x', function(data) {
-    console.log(data.title + "xxxxx");
     io.sockets.emit('y', data.title);
   });
 
@@ -45,6 +48,13 @@ io.on('connection', function (socket) {
   socket.on('chat message', function(msg){
     io.emit('chat message', msg);
   });
+
+  socket.on('connectUsersToWorksapce', function(room) {
+    var room = 
+    //console.log(room +"xxxxxxxxx");
+    socket.join(room);
+    io.sockets.in(room).emit('message', 'what is going on, party people?');
+  });
 });
 
 app.post('/index', function(req, res) {
@@ -54,6 +64,12 @@ app.post('/index', function(req, res) {
 
 app.get("/user", function(req, res) {
   res.send(user_name);
+});
+
+app.get('/workspace/:query', function(req, res) {
+  sess = req.session;
+  sess.name = req.params.query;
+  console.log(sess);
 });
 
 app.get('/search/:query', function(req, res) {
