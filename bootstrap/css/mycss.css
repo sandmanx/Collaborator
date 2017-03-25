@@ -1,0 +1,23 @@
+.tpad {
+	padding: 0px;
+}
+
+.work {
+	background-color: #000000;
+	background-size: 2500px;
+	padding: 0px;
+	border :100px;
+
+}
+
+.carousel-inner > .item > img {
+	opacity: 0.9;
+	min-width: 100%;
+	height:700px;
+}
+
+.carousel-inner > .item {
+	min-width: 100%;
+	height:auto;
+	top:0px;
+}

@@ -1,3 +1,8 @@
-# Collaborator
+# Groove
+## Simple music app.
+1. Download or clone the project.
+2. Install node.js
+3. In the command line type `node install`
+4. In the command line type `node server.js`
 
-A simple web app using node.js which lets people chat and collaborate on work in the same window.
+**Thanks for visiting!**
