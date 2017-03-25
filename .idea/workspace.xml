@@ -70,8 +70,8 @@
       <file leaf-file-name="finaltry.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/finaltry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="139" column="10" lean-forward="true" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
+            <state relative-caret-position="491">
+              <caret line="129" column="43" lean-forward="true" selection-start-line="129" selection-start-column="43" selection-end-line="129" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -117,6 +117,7 @@
         <option value="$PROJECT_DIR$/Public/login.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/Public/firebase-config.json" />
         <option value="$PROJECT_DIR$/Public/finaltry.html" />
       </list>
     </option>
@@ -322,7 +323,7 @@
       <workItem from="1490398722184" duration="2734000" />
       <workItem from="1490403453463" duration="833000" />
       <workItem from="1490437203299" duration="5289000" />
-      <workItem from="1490445706529" duration="4736000" />
+      <workItem from="1490445706529" duration="6097000" />
     </task>
     <task id="LOCAL-00001" summary="Chat for collaboration added">
       <created>1490329422190</created>
@@ -366,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490451248167</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated file for start script">
+      <created>1490454354747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490454354814</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40377000" />
+    <option name="totallyTimeSpent" value="41738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -696,10 +704,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/firebase-config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Public/finaltry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="139" column="10" lean-forward="true" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
+        <state relative-caret-position="491">
+          <caret line="129" column="43" lean-forward="true" selection-start-line="129" selection-start-column="43" selection-end-line="129" selection-end-column="43" />
           <folding />
         </state>
       </provider>
