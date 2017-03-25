@@ -1,6 +1,9 @@
 {
   "name": "groove",
   "version": "1.0.0",
+  "config" : {
+    "port" : "3000"
+  },
   "description": "Flaunt you playlist",
   "main": "index.js",
   "dependencies": {
@@ -19,6 +22,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start" : "index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arpit",
