@@ -1,9 +1,6 @@
 {
   "name": "groove",
   "version": "1.0.0",
-  "config" : {
-    "port" : "3000"
-  },
   "description": "Flaunt you playlist",
   "main": "index.js",
   "dependencies": {

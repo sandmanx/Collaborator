@@ -10,8 +10,8 @@ var youtube = google.youtube({ version: 'v3', auth: 'AIzaSyAoN1RLSoqgf7ujPK-2cfT
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 var roomname;
-
-http.listen(3000);
+//.listen(process.env.PORT || 5000)
+http.listen(process.env.PORT || 3000);
 
 app.use(express.static('./Public'));
 app.use(bodyParser.urlencoded({ extended: true }));
