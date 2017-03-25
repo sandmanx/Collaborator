@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1e770d-97bb-4ea4-82b4-18f9d6ce7195" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/socket.io.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/finaltry.html" afterPath="$PROJECT_DIR$/Public/finaltry.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,21 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="finaltry.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="finaltry.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/finaltry.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socket.io.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Public/socket.io.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="8190" column="36" lean-forward="true" selection-start-line="8190" selection-start-column="36" selection-end-line="8190" selection-end-column="36" />
+              <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -128,8 +118,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/Public/firebase-config.json" />
-        <option value="$PROJECT_DIR$/Public/finaltry.html" />
         <option value="$PROJECT_DIR$/Public/socket.io.js" />
+        <option value="$PROJECT_DIR$/Public/finaltry.html" />
       </list>
     </option>
   </component>
@@ -334,7 +324,7 @@
       <workItem from="1490398722184" duration="2734000" />
       <workItem from="1490403453463" duration="833000" />
       <workItem from="1490437203299" duration="5289000" />
-      <workItem from="1490445706529" duration="6824000" />
+      <workItem from="1490445706529" duration="6904000" />
     </task>
     <task id="LOCAL-00001" summary="Chat for collaboration added">
       <created>1490329422190</created>
@@ -399,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490460354498</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Local js file added">
+      <created>1490460828378</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1490460828378</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42465000" />
+    <option name="totallyTimeSpent" value="42545000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,7 +466,8 @@
     <MESSAGE value="Changed html file name" />
     <MESSAGE value="Added unversioned file" />
     <MESSAGE value="Updated file for start script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated file for start script" />
+    <MESSAGE value="Local js file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Local js file added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -687,14 +685,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new.html" />
-    <entry file="file://$PROJECT_DIR$/Public/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/npm-debug.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -737,18 +727,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/finaltry.html">
+    <entry file="file://$PROJECT_DIR$/Public/socket.io.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="1835">
+          <caret line="8190" column="36" lean-forward="true" selection-start-line="8190" selection-start-column="36" selection-end-line="8190" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/socket.io.js">
+    <entry file="file://$PROJECT_DIR$/Public/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="8190" column="36" lean-forward="true" selection-start-line="8190" selection-start-column="36" selection-end-line="8190" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/finaltry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
           <folding />
         </state>
       </provider>
