@@ -250,6 +250,7 @@
         {
             console.log("hello");
             console.log(room);
+             $('#target').text(" ");
             socket.emit('leaveroom',room);
         }
         function logout()
