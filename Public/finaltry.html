@@ -126,7 +126,7 @@
             </div>
 
              <script>
-        var socket = io.connect("http://localhost:3000/");
+        var socket = io.connect("https://collaborator-hint.herokuapp.com:process.env.PORT || 3000/");
         sessionStorage.setItem("flag1", 0);
         var user;
         var t;

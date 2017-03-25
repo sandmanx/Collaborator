@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e1e770d-97bb-4ea4-82b4-18f9d6ce7195" name="Default" comment="Added unversioned file">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+    <list default="true" id="6e1e770d-97bb-4ea4-82b4-18f9d6ce7195" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/finaltry.html" afterPath="$PROJECT_DIR$/Public/finaltry.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,13 +25,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="45">
+              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding>
-                <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+                <marker date="1490451042836" expanded="true" signature="153:447" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -51,8 +50,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -68,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="finaltry.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="finaltry.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/finaltry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="281">
+              <caret line="139" column="10" lean-forward="true" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -98,6 +97,7 @@
       <find>h</find>
       <find>server</find>
       <find>user</find>
+      <find>3000</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,11 +113,11 @@
         <option value="$PROJECT_DIR$/chat.js" />
         <option value="$PROJECT_DIR$/chat.html" />
         <option value="$PROJECT_DIR$/Public/home.html" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/Public/new1.css" />
-        <option value="$PROJECT_DIR$/Public/finaltry.html" />
         <option value="$PROJECT_DIR$/Public/login.html" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/Public/finaltry.html" />
       </list>
     </option>
   </component>
@@ -322,7 +322,7 @@
       <workItem from="1490398722184" duration="2734000" />
       <workItem from="1490403453463" duration="833000" />
       <workItem from="1490437203299" duration="5289000" />
-      <workItem from="1490445706529" duration="3141000" />
+      <workItem from="1490445706529" duration="4736000" />
     </task>
     <task id="LOCAL-00001" summary="Chat for collaboration added">
       <created>1490329422190</created>
@@ -352,11 +352,25 @@
       <option name="project" value="LOCAL" />
       <updated>1490355822177</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated file for start script">
+      <created>1490450808252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1490450808252</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated file for start script">
+      <created>1490451248167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490451248167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38782000" />
+    <option name="totallyTimeSpent" value="40377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,11 +387,11 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.52472955" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4969088" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.5061824" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.49381763" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.47527048" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.47527048" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16537867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4969088" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -421,7 +435,8 @@
     <MESSAGE value="Updated Readme and added separate working file for chat" />
     <MESSAGE value="Changed html file name" />
     <MESSAGE value="Added unversioned file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added unversioned file" />
+    <MESSAGE value="Updated file for start script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated file for start script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -435,7 +450,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding>
-            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490451042836" expanded="true" signature="153:447" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -485,7 +500,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490451042836" expanded="true" signature="153:447" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -521,7 +536,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490451042836" expanded="true" signature="153:447" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -549,7 +564,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490451042836" expanded="true" signature="153:447" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -577,7 +592,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490451042836" expanded="true" signature="153:447" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -630,14 +645,6 @@
     <entry file="file://$PROJECT_DIR$/chat.js" />
     <entry file="file://$PROJECT_DIR$/chat.html" />
     <entry file="file://$PROJECT_DIR$/Public/home.html" />
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/new1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -647,22 +654,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new.html" />
-    <entry file="file://$PROJECT_DIR$/Public/finaltry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -681,11 +672,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="45">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding>
-            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490451042836" expanded="true" signature="153:447" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/finaltry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="139" column="10" lean-forward="true" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
