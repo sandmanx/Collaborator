@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1e770d-97bb-4ea4-82b4-18f9d6ce7195" name="Default" comment="Added unversioned file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,10 +29,10 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="139">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
-                <marker date="1490448546148" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+                <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -82,16 +83,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="npm-debug.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/npm-debug.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -331,7 +322,7 @@
       <workItem from="1490398722184" duration="2734000" />
       <workItem from="1490403453463" duration="833000" />
       <workItem from="1490437203299" duration="5289000" />
-      <workItem from="1490445706529" duration="2438000" />
+      <workItem from="1490445706529" duration="3141000" />
     </task>
     <task id="LOCAL-00001" summary="Chat for collaboration added">
       <created>1490329422190</created>
@@ -365,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38079000" />
+    <option name="totallyTimeSpent" value="38782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,7 +369,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -386,7 +377,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4969088" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.47527048" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.47527048" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16537867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.4969088" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -444,7 +435,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding>
-            <marker date="1490448546148" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -494,7 +485,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <marker date="1490448546148" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -530,7 +521,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <marker date="1490448546148" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -558,7 +549,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <marker date="1490448546148" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -586,7 +577,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1490448546148" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -690,10 +681,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="139">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <marker date="1490448546148" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
+            <marker date="1490450776732" expanded="true" signature="193:487" ph="{&quot;body-parser&quot;: &quot;^1.16.0&quot;...}" />
           </folding>
         </state>
       </provider>
